@@ -1,0 +1,30 @@
+/*versione 1.0*/
+#col{
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+}
+
+#col1mid{
+  width:49%;
+  float: left;
+  margin-left: 10px;
+  margin-right: 2px;
+}
+
+#col1center{
+  width: 4%;
+  float: inherit;
+  margin-left: 20px;
+}
+#col1side{
+  width:49%;
+  float: right;
+  margin-left: 2px;
+  margin-right: 0;
+}

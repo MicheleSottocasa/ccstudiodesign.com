@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+  </head>
+  <body>
+      <div class="grid" style="padding: 0 30px;">
+          <div class="col__10">
+            <img src="../../img/mail.png" alt="" width="90%" style="margin-top: -5px;">
+          </div>
+          <div class="col__90">
+            <h1>Inviaci una mail</h1>
+            <p class="smal">Complila il form qui sotto per contattarci</p>
+        </div>
+      </div>
+      <form action="send.php" method="post">
+        <div class="grid">
+            <div class="col">
+                <p class="form-name">Nome *</p>
+                <input type="text" name="name" placeholder="Mario" />
+            </div>
+            <div class="col">
+                <p class="form-name">Cognome</p>
+                <input type="text" name="surname" placeholder="Rossi" />
+            </div>
+        </div>
+        <p class="form-name">Azienda *</p>
+        <input type="text" name="azienda" placeholder="CCStudio Textile Design">
+        <p class="form-name">Il tuo indirizzo mail *</p>
+        <input type="email" name="email" placeholder="mariorossi@example.it" />
+        <p class="form-name">Il tuo messaggio *<input type="subject" name="subject" placeholder="Oggetto" /></p>
+        <textarea name="message" rows="8" cols="80" placeholder="Testo del messaggio"></textarea><br>
+        <input type="submit" />
+       </form>
+  </body>
+</html>

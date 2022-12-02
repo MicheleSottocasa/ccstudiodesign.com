@@ -1,0 +1,15 @@
+/** ADD YOUR AWESOME CODES HERE **/
+
+.center_div{
+
+	margin: auto;
+
+}
+@media (max-width: 767px) {
+	.my_image{
+		width: 40%;
+	}
+	.full_screen{
+		width: 100%;
+	}
+}
